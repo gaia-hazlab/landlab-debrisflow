@@ -4,9 +4,9 @@ Repository for debris-flow, landslide probability, and landscape evolution noteb
 
 ## Current State
 
-At this stage, the repository contains notebooks only. The remaining top-level directories are included as placeholders for future code, configuration, data, experiments, models, and tests.
+At this stage, the repository contains notebooks only to predict landslide probability and hillslope diffusion. 
 
-## Project Structure
+## Structure
 
 ```text
 landlab_debrisflow/
