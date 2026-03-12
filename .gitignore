@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Conda
+.conda/
+
+# Editors and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
