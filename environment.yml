@@ -1,4 +1,4 @@
-name: landlab
+name: landlab_debrisflow
 channels:
   - conda-forge
 dependencies:

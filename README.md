@@ -1,21 +1,34 @@
-# landlab
+# landlab_debrisflow
 
-Landlab notebook workflows for debris-flow, landslide probability, and landscape evolution experiments.
+Repository for debris-flow, landslide probability, and landscape evolution notebook workflows built around Landlab.
 
-## Structure
+## Current State
+
+At this stage, the repository contains notebooks only. The remaining top-level directories are included as placeholders for future code, configuration, data, experiments, models, and tests.
+
+## Project Structure
 
 ```text
-landlab/
-├── README.md
+landlab_debrisflow/
+├── .github/
+│   └── workflows/
+├── config/
+├── data/
+├── experiments/
+├── models/
+├── notebooks/
+│   ├── Landslide_PF_Bolt_Creek.ipynb
+│   ├── Multi_model_Probability.ipynb
+│   └── diffusion_and_fluvial_incision_2024.ipynb
+├── scripts/
+├── src/
+├── tests/
 ├── .gitignore
 ├── environment.yml
-└── notebooks/
-    ├── Landslide_PF_Bolt_Creek.ipynb
-    ├── Multi_model_Probability.ipynb
-    └── diffusion_and_fluvial_incision_2024.ipynb
+└── README.md
 ```
 
-## Notebooks
+## Notebook Inventory
 
 - `notebooks/Landslide_PF_Bolt_Creek.ipynb`: Bolt Creek landslide probability and runout workflow.
 - `notebooks/Multi_model_Probability.ipynb`: multi-model landslide probability workflow.
@@ -34,5 +47,5 @@ Create the Conda environment with:
 
 ```bash
 conda env create -f environment.yml
-conda activate landlab
+conda activate landlab_debrisflow
 ```
