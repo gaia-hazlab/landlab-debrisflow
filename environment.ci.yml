@@ -1,9 +1,8 @@
-name: debris-landlab
+name: debris-landlab-ci
 channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - pip
   - numpy
   - pyyaml
   - rasterio
@@ -14,4 +13,4 @@ dependencies:
   - zarr
   - landlab
   - bmi-topography
-  - matplotlib
+  - pytest
